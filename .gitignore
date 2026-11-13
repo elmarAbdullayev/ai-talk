@@ -1,0 +1,19 @@
+# Python
+backend/.venv/
+# the API key: never in git
+backend/.env
+__pycache__/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.captures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# sample avatars for local testing only (other licenses), never in git
+frontend/public/avatar/*.local.glb
